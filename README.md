@@ -5,7 +5,7 @@
 # DİSCORD: https://discord.gg/FJvhNyEAkW & https://discord.gg/3m6TUSFr63
 
 `
-Oxygen Code Youtube Kanalına ABONE ROL BOT ALTYAPISI
+Oxygen Code Youtube Kanalına BUTONLU KAYIT BOT ALTYAPISI
 `
 
 `
