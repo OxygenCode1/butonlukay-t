@@ -62,17 +62,17 @@ client.on('guildMemberAdd', async member  => {
  let member2 = member.user 
  let zaman = new Date().getTime() - member2.createdAt.getTime()
  var user = member2 
- var ardademrzaman = [];
+ var oxygenzaman = [];
  if(zaman < 172800000) {
- ardademrzaman = `Hesap Yeni Açılmış`
+ oxygenzaman = `Hesap Yeni Açılmış`
  } else {
- ardademrzaman = `Hesap Yeni Açılmamış`}require("moment-duration-format");
+ oxygenzaman = `Hesap Yeni Açılmamış`}require("moment-duration-format");
    let zaman1 = new Date().getTime() - user.createdAt.getTime()
    const gecen = moment.duration(zaman1).format(` YY **[Yıl,]** DD **[Gün,]** HH **[Saat,]** mm **[Dakika,]** ss **[Saniye]**`) 
-    const ardademrembed = new Discord.MessageEmbed()
+    const oxygenembed = new Discord.MessageEmbed()
     .setColor('#efff00')
-     .setDescription(`**Hoş Geldin:** ${member}\n**Discord'a Kayıt Olma Süresi:** ${gecen}\n**Hesap Yeni Mi?:** ${ardademrzaman}`)
- client.channels.cache.get(hosgeldin).send(ardademrembed)
+     .setDescription(`**Hoş Geldin:** ${member}\n**Discord'a Kayıt Olma Süresi:** ${gecen}\n**Hesap Yeni Mi?:** ${oxygenzaman}`)
+ client.channels.cache.get(hosgeldin).send(oxygenembed)
    
            });
 
