@@ -2,7 +2,7 @@
 
 # KODLAYAN: Oxygen
 
-# DİSCORD: https://discord.gg/FJvhNyEAkW
+# DİSCORD: https://discord.gg/FJvhNyEAkW & https://discord.gg/3m6TUSFr63
 
 `
 Oxygen Code Youtube Kanalına ABONE ROL BOT ALTYAPISI
